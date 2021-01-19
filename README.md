@@ -1,1 +1,1 @@
-# quick-books
+There's an interface "Transaction.interface.ts" which is used to map data from various DB tables which are API specific to a common schema so that they can be processed into visualizations. It's assumed that the data from different sources will live in different tables and have associated file mappings or models (e.g. "QuickBooksTransactionModel.ts" in this project).
